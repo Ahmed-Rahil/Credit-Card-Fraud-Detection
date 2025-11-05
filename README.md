@@ -59,10 +59,10 @@ The confusion matrix shows the model's performance in absolute numbers. The key 
 The baseline model **caught more fraud** while **making over 5 times _fewer_ false alarms** than the "improved" SMOTE model.
 
 **Model 1: Baseline Random Forest**
-![Baseline Model Confusion Matrix](icon\ConfusionMatrix_RF.png)
+![Baseline Model Confusion Matrix](icon/ConfusionMatrix_RF.png)
 
 **Model 2: Tuned Pipeline (SMOTE + RF)**
-![Tuned Model Confusion Matrix](icon\ConfusionMatrix_finetuned.png)
+![Tuned Model Confusion Matrix](icon/ConfusionMatrix_finetuned.png)
 
 ### Evidence 2: Precision-Recall Curve
 
@@ -73,7 +73,7 @@ The P-R Curve provides a holistic summary of performance across all thresholds. 
 
 The P-R curve comparison plot confirms this finding. The blue dashed line (Baseline) is slightly but consistently above the orange line (Tuned Pipeline), resulting in a higher overall AUC-PR score.
 
-![Precision-Recall Curve Comparison](icon\Precision_Recall.png)
+![Precision-Recall Curve Comparison](icon/Precision_Recall.png)
 
 ### Analysis of Findings
 
